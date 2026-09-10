@@ -97,3 +97,11 @@ Detailed combat and techniques; equipment slots; alchemy and crafting; travel an
 Run npm install, npm run dev. Validate with npm test and npm run build. Vite outputs a static site in dist. The project can be imported into Vercel using its Vite preset, npm run build, and dist as the output directory. No environment variables or backend services are currently required.
 
 Core design rule: Does this create an interesting story or decision?
+
+## Career and feedback update — 2026-09-11
+
+Occupation now tracks performance (starts at 50), years in the current job, and lifetime career earnings. Annual reviews add 5 performance. Senior promotion requires 2 years and 70 performance; lead promotion requires 4 years and 80 performance. Each rank adds 35% of base pay, rounded to whole silver. The year's salary is paid before promotion, so raises apply next year. Switching jobs resets rank, tenure, and performance while preserving total earnings.
+
+Work actions cost one activity point: extra effort gives +15 performance for 4 health; professional training costs 10 silver and grants +1 intelligence, +1 willpower, and +8 performance; recovery gives +12 health for -5 performance. Existing saves receive defaults without losing progress.
+
+Aging, breakthroughs, work actions, and popups have brief visual feedback. Reduced-motion preferences disable animations. Optional quiet synthesized sound effects can be enabled from the header; the setting is saved locally. Audio does not require external files or network requests.
